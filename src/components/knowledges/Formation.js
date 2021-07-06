@@ -16,10 +16,10 @@ const Formation = () => {
                 <h4>Licence Informatique - Univerité Gamal Abdel Nasser de Conakry</h4>
                 <h5>2013 - 2016</h5> 
             </div>
-            <div className="formation-4">
+            {/* <div className="formation-4">
                 <h4>Baccalauréat Unique - Lycée Sylla Lamine, Conakry</h4>
                 <h5>2013</h5> 
-            </div>
+            </div> */}
         </div>
     );
 };
