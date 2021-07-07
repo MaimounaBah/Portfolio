@@ -16,7 +16,7 @@
         width: inherit;
         background: url('../../media/id.jpg') no-repeat center/cover;
         z-index: -1;
-        filter: brightness(20%);
+        filter: brightness(30%);
       }
   
       .content {
@@ -38,15 +38,16 @@
           color: $color-3;
           text-shadow: 1px 4px 1px $black;
         }
+        
         .pdf {
-          a {
+          a{
             font-size: 1.5rem;
             background: $color-3;
             padding: 1rem 2rem;
             border-radius: $borderRadius;
             box-shadow: 0 5px 1px rgb(15, 15, 15);
             transition: 0.2s ease;
-  
+        
             &:hover {
               background: $color-4;
             }

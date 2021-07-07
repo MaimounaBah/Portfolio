@@ -4,22 +4,30 @@ const Formation = () => {
     return (
         <div className="otherSkills">
            <h3>Formations</h3>
-            <div className="formation-1">
-                <h4>Master 1 IM (Ingénierie Métier) - Univerité Toulouse 1 Capitole</h4>
-                <h5>2020 - 2021</h5> 
+            <div className="list">
+                <ul>
+                    <li> 
+                         <i className="fas fa-fa-check-square"> 2021 - 2022 | </i> Master 2 IPM (Ingénierie des Processus Métier) - 
+                         Toulouse 1 Capitole 
+                       
+                    </li>
+                    <li> 
+                         <i className="fas fa-fa-check-square"> 2020 - 2021 | </i> Master 1 IM (Ingénierie Métier) - 
+                         Toulouse 1 Capitole  
+                       
+                    </li>
+                </ul>
+                <ul> 
+                    <li> 
+                        <i className="fas fa-fa-check-square"> 2018 - 2020 |</i> Licence 2&3 Informatique -  
+                        Toulouse 3 Paul Sabatier  
+                    </li>
+                    <li> 
+                        <i className="fas fa-fa-check-square"> 2013 - 2016 |</i> Licence Informatique -  
+                        Gamal Abdel Nasser de Conakry  
+                    </li>
+                </ul>
             </div>
-            <div className="formation-2">
-                <h4>Licence Informatique - Univerité Toulouse 3 Paul Sabatier</h4>
-                <h5>2017 - 2020</h5> 
-            </div>
-            <div className="formation-3">
-                <h4>Licence Informatique - Univerité Gamal Abdel Nasser de Conakry</h4>
-                <h5>2013 - 2016</h5> 
-            </div>
-            {/* <div className="formation-4">
-                <h4>Baccalauréat Unique - Lycée Sylla Lamine, Conakry</h4>
-                <h5>2013</h5> 
-            </div> */}
         </div>
     );
 };
