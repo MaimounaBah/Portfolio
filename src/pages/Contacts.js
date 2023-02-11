@@ -38,18 +38,14 @@ const Contacts = () => {
                     <div className="socialNetwork">
                         <ul>
                             <a href="https://www.linkedin.com/in/maimounabah " target="_blank" rel="noopener noreferrer">
-                                <h4>LinkedIn</h4>
                                 <i className="fab fa-linkedin"></i>
                             </a>
                             <a href="https://github.com/MaimounaBah " target="_blank" rel="noopener noreferrer">
-                                <h4>Github</h4>
                                 <i className="fab fa-github"></i>
                             </a>
                             <a href="https://twitter.com/MAIMOUN97428320" target="_blank" rel="noopener noreferrer">
-                                <h4>Twitter</h4>
                                 <i className="fab fa-twitter"></i></a>
                             <a href=" https://codepen.io/maimounabah " target="_blank" rel="noopener noreferrer">
-                                <h4>CodePen</h4>
                                 <i className="fab fa-codepen"></i>
                             </a>  
                         </ul>
